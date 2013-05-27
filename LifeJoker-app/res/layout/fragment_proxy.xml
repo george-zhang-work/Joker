@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_find_previous_holo_light" />
+
+    <!-- The FrameLayout's tag should be the index of the -->
+
+    <ViewFlipper
+        android:id="@+id/proxies_views"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inAnimation="@anim/push_down_in"
+        android:outAnimation="@anim/push_down_out"
+        android:tag="@array/proxy_fragment_tags" >
+
+        <LinearLayout
+            android:id="@+id/proxy_item_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/facebook_icon"
+                style="@style/ProxyItemIcon"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <ImageView
+                style="@style/ProxyItemDivider"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <TextView
+                android:id="@+id/fb_link_text"
+                style="@style/ProxyItemLink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/proxy_item_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/twitter_icon"
+                style="@style/ProxyItemIcon"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <ImageView
+                style="@style/ProxyItemDivider"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <TextView
+                android:id="@+id/twitter_link_text"
+                style="@style/ProxyItemLink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/proxy_item_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/qq_icon"
+                style="@style/ProxyItemIcon"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <ImageView
+                style="@style/ProxyItemDivider"
+                android:contentDescription="@string/proxy_item_icon" />
+
+            <TextView
+                android:id="@+id/qq_link_text"
+                style="@style/ProxyItemLink" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_find_next_holo_light" />
+
+</LinearLayout>

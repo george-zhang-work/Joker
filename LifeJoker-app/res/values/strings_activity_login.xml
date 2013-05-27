@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_account_or_email">Account or Email</string>
+    <string name="prompt_sign_in">You can use any of the following ways to sign in our app</string>
+    <string name="action_sign_in"><b>Sign in</b></string>
+    <string name="action_tour">Have a tour</string>
+    <string name="action_sign_up"><b>Sign up</b></string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="proxy_item_icon">ICON</string>
+    <string name="flag_or">Or</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The proxy item cotainer view style -->
+    <style name="ProxyItemContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- The proxy item icon view style -->
+    <style name="ProxyItemIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/proxy_default_ic</item>
+    </style>
+
+    <!-- The proxy item divider view style -->
+    <style name="ProxyItemDivider">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/divider_vertical_holo_dark</item>
+    </style>
+
+    <!-- The proxy item link text style -->
+    <style name="ProxyItemLink" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/sign_in_with_</item>
+    </style>
+    <!-- The proxy item prompt divider -->
+    <style name="PromptDivider">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/divider_vertical_holo_dark</item>
+    </style>
+
+</resources>
