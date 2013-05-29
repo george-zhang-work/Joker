@@ -22,6 +22,7 @@ local.properties
 
 #Maven project files
 ../target/
+../../target/
 */target/
 
 # Eclipse project files
@@ -35,4 +36,13 @@ local.properties
 release.properties
 
 # For temp file
-~*
+target
+*.iws
+*.ipr
+*.iml
+.settings
+.classpath
+.project
+.idea
+gen
+bin
