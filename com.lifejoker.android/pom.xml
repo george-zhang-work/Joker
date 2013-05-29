@@ -51,8 +51,8 @@
 					<configuration>
 						<sdk>
 							<platform>17</platform>
-						</sdk> 
-											</configuration>
+						</sdk>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>

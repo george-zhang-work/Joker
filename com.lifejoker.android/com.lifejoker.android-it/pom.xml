@@ -9,9 +9,7 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.lifejoker</groupId>
 	<artifactId>com.lifejoker.android-it</artifactId>
-	<version>1.0-SNAPSHOT</version>
 	<packaging>apk</packaging>
 	<name>com.lifejoker.android-it - Integration tests</name>
 
@@ -19,13 +17,6 @@
 		<dependency>
 			<groupId>com.google.android</groupId>
 			<artifactId>android-test</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.lifejoker</groupId>
-			<artifactId>com.lifejoker.android</artifactId>
-			<type>apk</type>
-			<version>1.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
