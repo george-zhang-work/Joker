@@ -21,7 +21,7 @@ local.properties
 .project
 
 #Maven project files
-! com.lifejoker.android/target/
+../target/
 */target/
 
 # Eclipse project files
