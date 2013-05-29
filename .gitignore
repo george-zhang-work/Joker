@@ -21,7 +21,7 @@ local.properties
 .project
 
 #Maven project files
-com.lifejoker.android/target/
+! com.lifejoker.android/target/
 */target/
 
 # Eclipse project files
@@ -33,3 +33,6 @@ com.lifejoker.android/target/
 # Local configuration file (sdk path, etc)
 local.properties
 release.properties
+
+# For temp file
+~*
